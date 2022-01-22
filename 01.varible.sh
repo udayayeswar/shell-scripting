@@ -11,3 +11,7 @@ echo Good morning, today date is $DATE
 #command substitution
 DATE=$(date +%F)
 echo Good Morning, today date is $DATE
+
+#Arthematic substitution
+EXPR1=$((2+3+5*3/8-4))
+echo EXPR1 OUTPUT=$EXPR1
