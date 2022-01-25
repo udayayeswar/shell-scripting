@@ -15,3 +15,6 @@ echo Good Morning, today date is $DATE
 #Arthematic substitution
 EXPR1=$((2+3+5*3/8-4))
 echo EXPR1 OUTPUT=$EXPR1
+
+##trying to access a variable from shell command line
+echo Course Name = $COURSE_NAME
