@@ -15,5 +15,5 @@
 # systemctl restart nginx
 echo frentend
 
-echo installing NGINX
+echo "installing NGINX"
 yum install nginx -y
