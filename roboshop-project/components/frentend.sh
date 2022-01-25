@@ -13,7 +13,7 @@
 # mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
 # systemctl restart nginx
-
+echo frentend
 
 echo installing NGINX
 yum install nginx -y
