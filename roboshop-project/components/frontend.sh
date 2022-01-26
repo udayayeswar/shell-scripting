@@ -13,9 +13,8 @@
 # mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
 # systemctl restart nginx
-echo frentend
-LOG_FILE=/tmp/roboshop.log
-rm -f $LOG_FILE
+echo "frontend"
+source components/common.sh
 
 echo "installing NGINX"
 yum install nginx -y  &>>$LOG_FILE
