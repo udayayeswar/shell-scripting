@@ -20,3 +20,6 @@ sed -i -e '1d' -e '/root/d' sample.txt
 #add lines
 sed -i -e '1 i Hello World' sample.txt
 sed -i -e '/root/ 1 Hellow World' sample.txt
+sed -i -e '1 a Hellow World' sample.txt
+sed -i -e '1 Hellow World' sample.txt
+...
