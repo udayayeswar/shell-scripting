@@ -34,7 +34,7 @@ LOG_FILE=/tmp/roboshop.log
 rm -f $LOG_FILE
 
 echo "Download Mongodb repo File"
-curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo  &>>$LOG_File
+curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo  &>>$LOG_FILE
 
 echo "Install MongoDB"
 yum install -y mongodb-org &>>$LOG_FILE
