@@ -23,10 +23,12 @@
 # cd /tmp
 # unzip mongodb.zip
 # cd mongodb-main
+
 # mongo < catalogue.js
 # mongo < users.js
 
 #Symbol `<` will take the input from a file and give that input to the command.
+echo mongodb
 
 source components/common.sh
 
