@@ -30,8 +30,10 @@
 #Symbol `<` will take the input from a file and give that input to the command.
 echo mongodb
 
-#LOG_FILE=/tmp/roboshop.log
-#rm -f $LOG_FILE
+LOG_FILE=/tmp/roboshop.log
+rm -f $LOG_FILE
+
+rm -f /etc/yum.repos.d/endpoint.repo
 
 echo "Download Mongodb repo File"
 curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo
