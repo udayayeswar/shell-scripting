@@ -60,7 +60,7 @@ curl -s -L -o /tmp/catalogue.zip "https://github.com/roboshop-devops-project/cat
 
 echo "Extract Catalogue code"
 cd /tmp/
-unzip /tmp/catalogue.zip &>>$LOG_FILE
+unzip -o catalogue.zip &>>$LOG_FILE
 
 echo "Clean Old Catalogue"
 rm -rf /home/roboshop/catalogue
