@@ -86,6 +86,6 @@ systemctl daemon-reload &>>$LOG_FILE
 systemctl enable catalogue &>>$LOG_FILE
 systemctl start catalogue &>>$LOG_FILE
 
-_
+
 
 
