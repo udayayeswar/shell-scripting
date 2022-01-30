@@ -15,7 +15,9 @@ STAT() {
   fi
 }
 
-APP_USER_SETUP_WITH_APP() {
+APP_USER_SETUP_WITH_APP()
+{
+
   echo "Create App User"
   id roboshop  &>>$LOG_FILE
   if [ $? -ne 0 ]; then
